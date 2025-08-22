@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease;
+}
+.drag-over {
+    border-color: #3b82f6;
+    background-color: #eff6ff;
+}
+.dark .drag-over {
+    border-color: #6366f1;
+    background-color: #1f2937;
+}
+.file-item {
+    cursor: move;
+}
+.file-item:hover {
+    background-color: #e5e7eb;
+}
+.dark .file-item:hover {
+    background-color: #374151;
+}
+.dark .file-item {
+    background-color: #1f2937;
+}
